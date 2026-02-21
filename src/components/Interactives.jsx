@@ -61,7 +61,7 @@ const AnimationContainer = (props) => {
         <div className="sticky bg-black top-0 h-screen w-full relative flex justify-center">
             <ScrollBar scrollYProgress={barProgress} />
             {imageArray.map((el, index) => (
-                <div key={index} className={`absolute left-1/2 -translate-x-1/2
+                <div key={index} className={`absolute top-0 left-1/2 -translate-x-1/2
                 max-w-xl w-full max-h-screen
                 lg:flex lg:items-center lg:justify-center lg:h-screen
                 lg:p-6 lg:gap-5 lg:max-w-6xl lg:w-full
@@ -70,17 +70,18 @@ const AnimationContainer = (props) => {
                         <img
                             src={el[0]}
                             alt={el[1]}
-                            className={`mt-[20px] w-full h-auto object-contain lg:mt-0 lg:max-w-5xl lg:w-full
+                            className={`mt-[20px] top-0 w-full h-auto object-contain lg:mt-0 lg:max-w-5xl lg:w-full
                                 transition-opacity duration-[1500ms]
                                 ${el[2] <= currentStepIndex && currentStepIndex <= el[3] ? 'opacity-100' : 'opacity-0'}`}
                         />
                         <p
                             className={`text-gray-400 mt-3 lg:mt-5 text-sm italic
                                 text-left w-full relative z-10 ml-5
+                                transition-opacity duration-[500ms]
                             ${el[2] <= currentStepIndex &&
                                 currentStepIndex <= el[3] ?
                                 'opacity-100' :
-                                'opacity-0 hidden pointer-events-none'}`}
+                                'opacity-0 pointer-events-none'}`}
                             dangerouslySetInnerHTML={{ __html: el[1] }}
                         />
                     </div>
