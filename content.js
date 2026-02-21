@@ -5,7 +5,7 @@ export const subhead =
 export const byline = [
     "Written by <a href='https://chicagomaroon.com/staff_name/polly-wang' style='color: #FE5434;'>Polly Wang</a>.",
     "Developed by <a href='https://chicagomaroon.com/staff_name/nolan-shaffer' style='color: #FE5434;'>Nolan Shaffer</a>.",
-    "February 20, 2026"
+    "February 21, 2026"
 ]
     
 const p1 = [
@@ -68,7 +68,8 @@ const p6 = [
 const s6 = [
     'Nathan Quiroa made his debut at Battle of the DJs this year as well. He began experimenting with his DJ deck in 2024, but it wasn’t until this event that he played on a professional DJ setup for the first time.',
     'In a preheat reel <a href="https://www.instagram.com/p/DUBbbkgiXAS/">posted</a> by MAB, Quiroa described his sound in three words: “Hard. Feminine. C*nt.” Believe it or not, the set delivered exactly that.',
-    'Quiroa’s set swung between pounding, bass-heavy drops and hyperpop vocals layered over sharp, glittering synths. The quickening BPM and relentless percussion drove the “hard,” while the high-pitched vocals and glossy textures made it, as promised, c*nt—hyperfeminine, intentionally exaggerated. The extremity was the point. Each shift pushed the room toward a new edge, never settling long enough to get comfortable. The sounds hinted at immense possibilities, possibilities that could only grow with more opportunities to perform, where DJs can become comfortable with the equipment and the ever-changing crowds.',
+    'Quiroa’s set swung between pounding, bass-heavy drops and hyperpop vocals layered over sharp, glittering synths. The quickening BPM and relentless percussion drove the “hard,” while the high-pitched vocals and glossy textures made it, as promised, c*nt—hyperfeminine, intentionally exaggerated.',
+    'The extremity was the point. Each shift pushed the room toward a new edge, never settling long enough to get comfortable. The sounds hinted at immense possibilities, possibilities that could only grow with more opportunities to perform, where DJs can become comfortable with the equipment and the ever-changing crowds.',
     '“It went by so fucking fast. I felt like I was playing for five minutes that I got a five-minute warning. I was like, ‘Oh, bro, fuck.’ So I was like, ‘Whatever, whatever, you gotta roll with it.’”',
     'Onabanjo’s set introduced unexpected textures and unconventional transitions, leaning into experimentation. Individual sounds stood out, sometimes strikingly so, though the shifts between them were abrupt. The result was less about building sustained tension and more about exploration, a reminder that the Battle of the DJs is as much a learning space as it is a competition.',
     'Anton Balyuk nearly skipped his economics problem set to submit his mixing audition. “It came in very close. It ended at 5:59,” he said, laughing before his set. He closed out the evening with a sound rooted in the Eastern European club scene. The rhythms were sharper and more percussive, driving kicks and tightly wound builds that shifted the room’s energy into something harder and more kinetic.',
@@ -111,9 +112,10 @@ const i6 = [
     ["nathan1.jpg", "Nathan Quiroa on the DJ deck. Courtesy of Taylor Pate.", 11, 12],
     ["preheat.jpg", "Quiroa in a video posted by MAB on Instagram. Courtesy of MAB.", 13, 13],
     ["nathan2.jpg", "Quiroa on the DJ deck. Courtesy of Taylor Pate.", 14, 14],
-    ["nathan3.jpg", "Quiroa on the DJ deck. <a href='https://chicagomaroon.com/staff_name/nolan-shaffer/'>Nolan Shaffer</a>.", 15, 15],
-    ["onabanjo.jpg", "Tumi Onabanjo on the DJ deck. Courtesy of Taylor Pate.", 16, 16], 
-    ["anton.jpg", "Anton Balyuk on the DJ deck. Courtesy of Taylor Pate.", 17, 17],
+    ["nathan2.jpg", "Quiroa on the DJ deck. Courtesy of Taylor Pate.", 15, 15],
+    ["nathan3.jpg", "Quiroa on the DJ deck. <a href='https://chicagomaroon.com/staff_name/nolan-shaffer/'>Nolan Shaffer</a>.", 16, 16],
+    ["onabanjo.jpg", "Tumi Onabanjo on the DJ deck. Courtesy of Taylor Pate.", 17, 17], 
+    ["anton.jpg", "Anton Balyuk on the DJ deck. Courtesy of Taylor Pate.", 18, 18],
 ];
 
 export const sections = [
