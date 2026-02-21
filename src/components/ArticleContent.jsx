@@ -1,5 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
-import { useScroll } from "motion/react"
+import React, { useState, useEffect } from 'react';
 import { AnimationBox } from "./Interactives.jsx"
 import { sections, p7 } from '../../public/content.js';
 
@@ -7,13 +6,6 @@ import { sections, p7 } from '../../public/content.js';
 export default function ArticleContent({ windowHeight, windowWidth }) {
     const spacing = .2;
     const height = windowHeight * spacing;
-
-    const stepsContainerRef = useRef(null);
-
-    const { scrollYProgress } = useScroll({
-        target: stepsContainerRef,
-        offset: ["start end", "end start"],
-    });
 
     const [scrollY, setScrollY] = useState(() => {
         const saved = localStorage.getItem('scrollY');
@@ -62,9 +54,7 @@ export default function ArticleContent({ windowHeight, windowWidth }) {
 
     const baseProps = {
         currentStepIndex,
-        scrollYProgress,
         windowWidth,
-        stepsContainerRef,
         onStepEnter,
         onStepExit,
         height,

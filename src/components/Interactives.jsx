@@ -1,5 +1,5 @@
-import React from 'react';
-import { motion, useTransform } from "motion/react"
+import React, { useRef } from 'react';
+import { motion, useScroll, useTransform } from "motion/react"
 import { Scrollama, Step } from 'react-scrollama';
 
 
@@ -106,16 +106,19 @@ export const AnimationBox = (props) => {
         currentStepIndex,
         scrollText,
         paragraphText,
-        scrollYProgress,
         windowWidth,
         imageArray,
         barLength,
-        stepsContainerRef,
         onStepEnter,
         onStepExit,
         height,
         start,
     } = props;
+    const stepsContainerRef = useRef(null);
+    const { scrollYProgress } = useScroll({
+        target: stepsContainerRef,
+        offset: ["start end", "end start"],
+    });
 
     return (
         <div>
