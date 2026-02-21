@@ -91,7 +91,7 @@ export default function ArticleContent({ windowHeight, windowWidth }) {
                     alt="The entrance of Cobb Café"
                     className="top-0 w-[40rem] max-w-full h-auto object-contain"
                 />
-                <p className="text-right w-[40rem] max-w-full mr-0 text-sm mb-5">
+                <p className="text-right w-[40rem] max-w-full text-sm mb-5 mr-3 md:mr-5">
                     The gate to the party.{' '}
                     <a href="https://chicagomaroon.com/staff_name/nolan-shaffer/">Nolan Shaffer</a>.
                 </p>

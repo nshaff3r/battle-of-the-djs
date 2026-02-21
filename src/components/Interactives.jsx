@@ -6,7 +6,7 @@ import { Scrollama, Step } from 'react-scrollama';
 const ScrollBar = ({ scrollYProgress }) => {
     return (
         <div className="absolute left-0 right-0 z-10 top-0 flex justify-center">
-            <div className="relative w-full max-w-xl h-[5px]
+            <div className="relative w-full max-w-xl h-[8px]
              bg-gray-500 overflow-hidden
             lg:max-w-none lg:h-[8px]">
                 <motion.div
