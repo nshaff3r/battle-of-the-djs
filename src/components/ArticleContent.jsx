@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { useScroll } from "motion/react"
 import { AnimationBox } from "./Interactives.jsx"
-import { sections } from '../../public/content.js';
+import { sections, p7 } from '../../public/content.js';
 
 
 export default function ArticleContent({ windowHeight, windowWidth }) {
@@ -86,6 +86,15 @@ export default function ArticleContent({ windowHeight, windowWidth }) {
                     start={section.start}
                 />
             ))}
+            <div className="w-[100dvw] mx-auto py-10 md:py-10 flex flex-col items-center">
+                {p7.map((p, index) => (
+                    <p
+                        className="mb-[20px] px-[2%] md:px-[20%] z-[20] content"
+                        key={index}
+                        dangerouslySetInnerHTML={{ __html: p }}
+                    />
+                ))}
+            </div>
         </div>
     );
 }
