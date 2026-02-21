@@ -79,12 +79,17 @@ export default function ArticleContent({ windowHeight, windowWidth }) {
             <div className="w-[100dvw] mx-auto py-10 md:py-10 flex flex-col items-center">
                 {p7.map((p, index) => (
                     <p
-                        className="mb-[20px] px-[2%] md:px-[20%] z-[20] content"
+                        className="px-[2%] md:px-[20%] z-[20] content"
                         key={index}
                         dangerouslySetInnerHTML={{ __html: p }}
                     />
                 ))}
             </div>
+            <img src='gate.jpg' alt='The entrance of Cobb Café'/>
+            <p className="text-right mr-3 md:mr-5 text-sm mb-5">
+            The gate to the party.{' '}
+            <a href='https://chicagomaroon.com/staff_name/nolan-shaffer/'>Nolan Shaffer</a>.
+            </p>
         </div>
     );
 }

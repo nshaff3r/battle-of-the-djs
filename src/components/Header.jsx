@@ -29,7 +29,7 @@ const Headline = ({ windowWidth }) => {
             className="w-10/12 md:w-1/2 mx-auto absolute"
             style={{
                 left: '50%',
-                top: windowWidth < 640 ? '20%' : '33%',
+                top: windowWidth < 640 ? '30%' : '33%',
                 transform: 'translateX(-50%)'
             }}
         >
@@ -66,7 +66,7 @@ const Byline = ({ windowWidth }) => {
     return (
         <div
             className="px-5 mx-auto absolute text-[white]
-            bg-[#0D1215]/[0.5] rounded-lg w-[60dvw] md:w-auto"
+            bg-[#0D1215]/[0.5] rounded-lg w-[70dvw] md:w-auto"
             style={{
                 left: '50%',
                 bottom: windowWidth < 640 ? '17%' : '20%',

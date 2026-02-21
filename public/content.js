@@ -1,5 +1,5 @@
 export const headline =
-    'Basement Beats: Battle of the DJs Takes Over Cobb Café';
+    'Basement Beats:<br />Battle of the DJs Takes Over Cobb Café';
 export const subhead =
     'Five DJs transformed the coffee shop into a late-night rave hosted by the Major Activities Board. Interactive.';
 export const byline = [
@@ -72,11 +72,11 @@ const s6 = [
     '“It went by so fucking fast. I felt like I was playing for five minutes that I got a five-minute warning. I was like, ‘Oh, bro, fuck.’ So I was like, ‘Whatever, whatever, you gotta roll with it.’”',
     'Onabanjo’s set introduced unexpected textures and unconventional transitions, leaning into experimentation. Individual sounds stood out, sometimes strikingly so, though the shifts between them were abrupt. The result was less about building sustained tension and more about exploration, a reminder that the Battle of the DJs is as much a learning space as it is a competition.',
     'Anton Balyuk nearly skipped his economics problem set to submit his mixing audition. “It came in very close. It ended at 5:59,” he said, laughing before his set. He closed out the evening with a sound rooted in the Eastern European club scene. The rhythms were sharper and more percussive, driving kicks and tightly wound builds that shifted the room’s energy into something harder and more kinetic.',
-    'As the clock pushed toward one, the crowd gradually thinned.'
 ]
 
 export const p7 = [
-    'Winter jackets resurfaced and attendees slipped back into the falling snow. The event proved a success and a clear response to students’ emerging need for a space like this that moves beyond casual socializing. At its core, the Battle of the DJs was not about winning. It was about learning how to stay with the music, with uncertainty, with one another. As MAB crew member Kevin McDermott put it, the event is a place “let loose and be yourself.” But what that meant was more radical than it sounded. In the press of bodies and the repetition of bass, dancers ignored social standards, stopped managing appearances, and let rhythm dictate the body. At one point, the basement seemed to dissolve—bodies, sound, the classrooms above, and the century-old Gothic building’s history blurring together—leaving one with the sensation of having briefly stepped outside of oneself, carried instead by a shared pulse.'
+    'Winter jackets resurfaced and attendees slipped back into the falling snow. The event proved a success and a clear response to students’ emerging need for a space like this that moves beyond casual socializing. At its core, the Battle of the DJs was not about winning. It was about learning how to stay with the music, with uncertainty, with one another. As MAB crew member Kevin McDermott put it, the event is a place “let loose and be yourself.” But what that meant was more radical than it sounded. In the press of bodies and the repetition of bass, dancers ignored social standards, stopped managing appearances, and let rhythm dictate the body. At one point, the basement seemed to dissolve—bodies, sound, the classrooms above, and the century-old Gothic building’s history blurring together—leaving one with the sensation of having briefly stepped outside of oneself, carried instead by a shared pulse.',
+    'As the clock pushed toward one, the crowd gradually thinned.'
 ]
 
 const i1 = [
@@ -114,7 +114,6 @@ const i6 = [
     ["nathan3.jpg", "Quiroa on the DJ deck. <a href='https://chicagomaroon.com/staff_name/nolan-shaffer/'>Nolan Shaffer</a>.", 15, 15],
     ["onabanjo.jpg", "Tumi Onabanjo on the DJ deck. Courtesy of Taylor Pate.", 16, 16], 
     ["anton.jpg", "Anton Balyuk on the DJ deck. Courtesy of Taylor Pate.", 17, 17],
-    ["gate.jpg", "The gate to the party. <a href='https://chicagomaroon.com/staff_name/nolan-shaffer/'>Nolan Shaffer</a>.", 18, 18],
 ];
 
 export const sections = [
